@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+.kanit {
+  font-family: 'Kanit',
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #2b2b43;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pt-100 {
+  padding-top: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.m-110 {
+  margin: 110px;
 }
 
-.App-link {
-  color: #61dafb;
+.bg-naranja {
+  background-color: #EC903B;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.w-90 {
+  width: 92%;
+
 }
+
+.bg-azul {
+  background-color: #2b2b43;
+}
+
+.boton {
+  cursor: pointer;
+  position: absolute;
+  top: 67%;
+  left: 25%;
+  font-size: xx-large;
+  border: #2b2b43 2px solid;
+  border-radius: 20px;
+  text-decoration: none;
+
+}
+
+.img {
+  height: auto;
+  display: block;
+  margin-left: 55px;
+}
+
+.pl-150 {
+  padding-left: 150px;
+}
+
+.scroll {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.contenedor {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.bgHeaderPartidos {
+  background-color: #008080;
+}
+
+a {
+  text-decoration: none;
+}
+
+.border-win{
+  border-bottom: #18C10A solid 10px;
+}
+.border-draft{
+  border-bottom:#818181 solid 10px ;
+}
+.border-lose{
+  border-bottom:#E70000 solid 10px ;
+}
+
